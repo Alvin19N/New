@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Dimensions Example</title>
+  <script>
+    function getImageDimensions() {
+      var image = document.getElementById('myImage');
+      var width = image.width;
+      var height = image.height;
+
+      alert('Image width: ' + width + 'px\nImage height: ' + height + 'px');
+    }
+  </script>
+</head>
+<body>
+  <img id="myImage" src="image.jpg" alt="Your Image">
+  <button onclick="getImageDimensions()">Get Image Dimensions</button>
+</body>
+</html>
